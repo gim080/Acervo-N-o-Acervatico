@@ -45,7 +45,7 @@
 }
 
 .lista__link{
-    background: var(--laranja-degrade);
+    background: var(--vermelho-bosta);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
