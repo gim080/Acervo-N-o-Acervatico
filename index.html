@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acervo Não Acervatico</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botão">
+                <label for="menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item"><a href="#" class="lista__link">Terror</li>
+                    <li class="lista-menu__item"><a href="#" class="lista__link">Romance</li>
+                    <li class="lista-menu__item"><a href="#" class="lista__link">Ficção</li>
+                    <li class="lista-menu__item"><a href="#" class="lista__link">Infanto Juvenil</li>
+                    <li class="lista-menu__item"><a href="#" class="lista__link">Hq</li>
+                </ul>
+                <img src="img/Logo.svg" alt="Logo-Acervo" class="container__imagem">
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+                <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Encontre o livro ideal para desfrutar em seu tempo livre</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Recomendações</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide"><img src="img/1984.jpg" alt="livro 1984 de George Orwell"></div>
+                  <div class="swiper-slide"><img src="img/Drácula.jpg" alt="livro Drácula de Bram Stoker"></div>
+                  <div class="swiper-slide"><img src="img/Maus.jpg" alt="história em quadrinhos Maus de Art Spiegelman"></div>
+                  <div class="swiper-slide"><img src="img/Senhor-Sommer.jpg" alt="livro A História do Senhor Sommer de Patrick Süskind"></div>
+                  <div class="swiper-slide"><img src="img/Algernon.jpg" alt="livro Flores para Algernon de Daniel Keyes"></div>
+                  <div class="swiper-slide"><img src="img/Policarpo-Quaresma.jpg" alt="livro O Triste Fim de Policarpo de Quaresma de Lima Barreto"></div>
+                </div>
+
+
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+            </div>    
+
+            <div class="card">
+                <div class="card__descrição">
+                    <div class="descrição">
+                      <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                      <h2 class="descrição__titulo-livro">A Cidade do Sol</h2>
+                      <p class="descrição__texto">
+                        A obra narra a história de duas mulheres com idades, trajetórias e origens diferentes que acabam unidas pelas pelas trajédias da guerra do Afeganistão e as restrições do Talibã
+                      </p>
+                    </div>
+                    <img src="img/Cidade-do-sol.jpg" class="descrição__imagem" />
+                  </div>
+
+                  <div class="card__botões">
+                    <ul class="botões">
+                      <li class="botões__item">
+                        <img src="img/Favoritos.svg" alt="Favoritar livro" />
+                      </li>
+                      <li class="botões__item">
+                        <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+                      </li>
+                    </ul>
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                  </div>
+            </div>
+        </section>
+        <section class=”carrossel”>
+            <h2 class="carrossel__titulo">Recomendações de HQ</h2>
+            <div class="swiper">
+              <div class="swiper-pagination"></div>
+        
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/Maus.jpg" alt="Livro sobre liderança em design da alura books">
+                </div>
+                <div class="swiper-slide"><img src="img/Hikari-Club.jpg" alt="Mangá Litchi Hikari Club de Usamaru Furuya">
+                </div>
+                <div class="swiper-slide"><img src="img/Monster.jpg" alt="Mangá Monster de Naoki Urasawa"></div>
+                <div class="swiper-slide"><img src="img/Innocent.jpg" alt="Mangá Innocent de Shin-ichi Sakamoto"></div>
+                <div class="swiper-slide"><img src="img/Morreu.jpg" alt="Mangá O Verão em que Hikaru Morreu de Ren Mokumoku"></div>
+                <div class="swiper-slide"><img src="img/Não-era-você.jpg" alt="Visual Novel Não Era Você Quem Eu Esperava de Fabien Toulmé"></div>
+              </div>
+        
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+        
+            <div class="card">
+              <div class="card__descrição">
+                <div class="descrição">
+                  <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                  <h3 class="descrição__titulo">Autor do mês</h3>
+                  <h2 class="descrição__titulo-livro">Fiódor Dostoiévski</h2>
+                  <p class="descrição__texto">Fiódor Mikhailovitch Dostoiévski foi um escritor, jornalista e filósofo russo. As obras literárias de Dostoiévski são conhecidas por explorarem o psicológico dos indivíduos, no que diz respeito a contextos sociais, políticos, religiosos, filosóficos e espirituais da sociedade russa do século XIX.
+                  </p>
+                </div>
+
+                <img src="img/fiodor-dostoievski.webp" class="descrição__imagem-1">
+              </div>
+        
+
+              <div class="card__botões">
+
+                <ul class="botões">
+                  <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                  <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+
+                <a href="#" class="botões__ancora">Saiba mais</a>
+              </div>
+            </div>
+        
+        
+        
+        </section>
+
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+            <ul class="tópicos__lista">
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Nacionais</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Gótico</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">ficção-inglesa</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">romance russo</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">mangá</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">melancolia</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">não-ficção</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contato">
+          <h2 class="contato__titulo">Fique por dentro de todas as novidades!</h2>
+          <p class="contato__texto">Receba recomendações de livros e e-books diretamente em seu e-mail.</p>
+          <input translate="email" placeholder="Cadastre seu e-mail" class="contato__email">
+        </section>
+
+        <hr />
+        <footer class="rodapé">
+          <h2 class="buceta___rodapé">Eu não tenho tanto repertório pra fazer um site sobre livros</h2>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper',{
+                SpaceBetween: 10,
+                slidesPerView: 3,
+                pagination:{
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                }
+            });
+        </script>
+    </body>
+</html>
